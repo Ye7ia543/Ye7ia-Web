@@ -1,160 +1,160 @@
-/* General styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+
+nav{
+    background-color: cornsilk;
+    left: 10px;
+    padding: 30px 0;
+    border-radius: 12px;
+
+    
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #181818;
-    color: #fff;
-    line-height: 1.6;
-}
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 50px;
-    background-color: #181818;
-}
-
-header .logo img {
-    height: 60px;
-    width: 60px;
+li{
+   
+    
+    list-style-type: none;
+   
  
 }
-
-header nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+.h1{
+    font-size: 100px ;
+    color: antiquewhite;
+}
+.p{
+    color: antiquewhite;
 }
 
-header nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 16px;
-    transition: color 0.3s;
+
+
+
+header{
+    background-image: url(./back\ ground.jpg);
+    background-size: cover;
+    padding: 125px 0;
+    text-align: center;
+    height: 350px;
+
+
+} 
+
+
+button{
+    
+    text-align: center;
+    background: transparent;
+    border: 3px solid blue;
+   
+    
 }
 
-header nav ul li a:hover {
-    color: #007bff;
+
+.p{
+    color: white;
 }
 
-/* Hero section */
-.hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
+footer{
+    background-color: grey;
+    text-align: center;
+    padding: 15px 0;
 }
 
-.hero .text-content {
-    max-width: 50%;
+    font-size: 150px;
+
+
+.edit{
+    font-size: 100px;
+    font-style: italic;
 }
 
-.hero .text-content h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
-}
 
-.hero .text-content p {
-    font-size: 18px;
-    margin-bottom: 30px;
-    color: #bbb;
-}
-
-.hero .btn {
-    display: inline-block;
-    background-color: #007bff;
-    color: #fff;
-    padding: 15px 30px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 18px;
-    transition: background-color 0.3s;
-}
-
-.hero .btn:hover {
-    background-color: #0056b3;
-}
-
-.hero .image-content img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    filter: brightness(0.9);
-}
-.logo{
-    display: flex;
-    gap: 15px;
- 
-}
-h3{
-    margin-top: 10px;
-}
-/* styles.css */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #121212;
-    color: #fff;
-  }
-  
-  .card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 20px;
-    padding: 20px;
-  }
-  
-  .card {
-    background-color: #1c1c1c;
-    border-radius: 8px;
-    overflow: hidden;
-    width: 300px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-  }
-  
-  .card:hover {
-    transform: translateY(-10px);
-  }
-  
-  .card-image {
+.cont{
     width: 100%;
-    height: 180px;
-    object-fit: cover;
-  }
-  
-  .card-content {
+    height: 450px;
+}
+.card1{
+    float: left;
+    padding: 20px;
+}
+.card2{
+    float: right;
+    padding: 20px;
+}
+.card3{
+    float: right;
+    padding: 20px;
+}
+.hp{
+    text-align: center;
+    background-color: darkgrey;
+}
+.photo1{
+    text-align: center;
+    height: px;
+    width: 5px;
+
+}
+.hp{
+    
+    text-align: center;
+}
+.img{
     padding: 15px;
-  }
+    margin: 0 150px;
+}
+.form{
+    text-align: center;
+    background-image: url(./street.jpg);
+    background-size: cover;
+    height: 600px;
+}
+.pu{
+    color: ;
+}
   
-  .card-content h3 {
-    font-size: 1.1em;
-    margin: 10px 0 15px;
-    color: #fff;
-  }
-  
-  .read-more {
-    color: #00ff00;
-    text-decoration: none;
-    font-size: 0.9em;
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-  }
-  
-  .read-more span {
-    font-size: 1.2em;
-    transition: transform 0.3s ease;
-  }
-  
-  .read-more:hover span {
-    transform: translateX(5px);
-  }
-  
+
+.form2{
+    text-align: center;
+    background-image: url(./street.jpg);
+   height: 600px;
+    
+}
+.h11{
+    color: white;
+}
+.ppp{
+    color: white;
+}
+.yeh{
+    background: transparent;
+    color: blanchedalmond;
+}
+.emil{
+    background: transparent;
+    color: antiquewhite;
+}
+.tex{
+    background: transparent;
+    color: aliceblue;
+}
+.sub{
+background: transparent;
+    margin: 0 20px;
+    padding: 5px;
+    
+    
+}
+.box{
+    margin: 0 10px;
+    padding: 10px;
+    
+}
+
+.star{
+    width: 150px;
+    height: 50px;
+    
+    margin:0 70px;
+    background: none;
+    border: none;
+}
